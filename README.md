@@ -174,7 +174,7 @@ If you like this project please like and share. You can also reach out to my pla
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the reviewers who have viewed and commented on my code.
+I would like to thank https://www.behance.net/adagio07 for providing the design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
