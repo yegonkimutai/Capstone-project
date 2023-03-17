@@ -79,17 +79,24 @@
 
 /* Home Body */
 .body {
-  background-image: url(./Images/Silver\ back.jpg);
+  background-image: url(./Images/mainbackground\ img.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
-  height: 750px;
+  height: 800px;
   width: 100%;
+}
+
+.body h4 {
+  margin-top: 10%;
+  margin-left: 10%;
+  color: #ec5242;
+  font-weight: 300;
+  font-size: 30px;
 }
 
 .body h1 {
   width: 800px;
-  margin-top: 15%;
   margin-left: 10%;
   font-family: 'Lato', sans-serif;
   font-size: 60px;
@@ -112,11 +119,11 @@
   margin-left: 10%;
   font-size: 25px;
   font-weight: 700;
-  color: snow;
+  color: #272a31;
 }
 
 .date a {
-  color: #272a31;
+  color: gray;
   text-decoration: none;
   font-size: 15px;
 }
@@ -210,9 +217,15 @@
   display: flex;
 }
 
+.layout1 {
+  background-image: url(./Images/Chess\ background.png);
+  background-repeat: no-repeat;
+}
+
 .layout1 img {
-  size: 80%;
-  margin: 20px;
+  width: 150px;
+  height: 150px;
+  margin: 21px;
 }
 
 .layout2 h2 {
@@ -276,12 +289,12 @@
 
 .abt-page h2 {
   margin-top: 15%;
-  width: 900px;
+  width: 70%;
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 60px;
   font-weight: 800;
-  margin-left: 20%;
+  margin-left: 15%;
   color: #ec5242;
 }
 
@@ -387,7 +400,10 @@
   align-content: center;
   background-image: url(./Images/Tech\ show\ 1\ resize.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: 100%;
+  background-color: #ec5242;
+  background-blend-mode: multiply;
 }
 
 .bgphoto2 {
@@ -397,8 +413,11 @@
   text-align: center;
   align-content: center;
   justify-content: center;
+  background-color: #ec5242;
+  background-blend-mode: multiply;
   background-image: url(./Images/Tech\ show\ 2.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: 100%;
   margin-left: 20px;
 }
@@ -413,12 +432,20 @@
 }
 
 /* Copyright */
-.copyright {
+.copyright-home {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: gray;
+}
+
+.copyright-abt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  background-color: #272a31;
 }
 
 @media (max-width: 500px) {
@@ -479,6 +506,11 @@
 
   .body {
     height: 100%;
+  }
+
+  .body h4 {
+    margin-left: 25px;
+    font-size: 20px;
   }
 
   .body h1 {
@@ -550,8 +582,8 @@
   }
 
   .layout1 img {
-    size: 20%;
-    margin: 10px;
+    width: 150px;
+    margin: 15px;
   }
 
   .layout2 {
