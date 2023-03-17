@@ -79,7 +79,7 @@
 
 /* Home Body */
 .body {
-  background-image: url(./Images/mainbackground\ img.png);
+  background-image: url("./Images/mainbackground\ img.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -130,7 +130,7 @@
 
 /* Program Section */
 .programs {
-  background-image: url(./Images/Blue\ main\ back.jpg);
+  background-image: url("./Images/Blue\ main\ back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -218,7 +218,7 @@
 }
 
 .layout1 {
-  background-image: url(./Images/Chess\ background.png);
+  background-image: url("./Images/Chess\ background.png");
   background-repeat: no-repeat;
 }
 
@@ -280,7 +280,7 @@
 
 /* About Section */
 .abt-page {
-  background-image: url(./Images/mainbackground\ img.png);
+  background-image: url("./Images/mainbackground\ img.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -398,7 +398,7 @@
   color: #fff;
   text-align: center;
   align-content: center;
-  background-image: url(./Images/Tech\ show\ 1\ resize.jpg);
+  background-image: url("./Images/Tech\ show\ 1\ resize.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -415,7 +415,7 @@
   justify-content: center;
   background-color: #ec5242;
   background-blend-mode: multiply;
-  background-image: url(./Images/Tech\ show\ 2.jpg);
+  background-image: url("./Images/Tech\ show\ 2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
