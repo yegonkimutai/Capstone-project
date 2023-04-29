@@ -1,4 +1,6 @@
 const speaker = document.querySelector('.speakers');
+const seeMore = document.querySelector('.see-more');
+const seeLess = document.querySelector('.see-less');
 
 const data = [
   {
@@ -44,6 +46,7 @@ function visitors(guests) {
   guests.forEach((guest) => {
     const sheet = document.createElement('div');
     sheet.classList.add('layout');
+    sheet.classList.add('layout-display');
     sheet.innerHTML = `
         <div class="layout1">
             <img src="${guest.image}" alt="">
@@ -66,3 +69,38 @@ function visitors(guests) {
 }
 
 visitors(data);
+
+//See more btn
+let displayItems = 2;
+
+seeMore.addEventListener('click', () => {
+  const people = [...document.querySelectorAll('.layout')]
+
+  for(let i = displayItems; i < people.length; i += 1) {
+    people[i].style.display = 'flex';
+  }
+
+  displayItems += 4;
+
+  if (displayItems >= people.length) {
+    seeMore.style.display = 'none';
+    seeLess.style.display = 'block'
+  }
+})
+
+
+//See less btn
+seeLess.addEventListener('click', () => {
+  const people = [...document.querySelectorAll('.layout')]
+
+  for(let i = 2; i < people.length; i += 1) {
+    people[i].style.display = 'none';
+  }
+
+  displayItems -= 4;
+
+  if (displayItems <= 2) {
+    seeLess.style.display = 'none';
+    seeMore.style.display = 'block'
+  }
+})
